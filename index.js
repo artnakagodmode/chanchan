@@ -324,7 +324,7 @@ async function accountLogin(state, enableCommands = [], prefix, admin = []) {
 
 					axios.get(gifUrl, { responseType: 'arraybuffer' })
 					.then(response => {
-					fs.writeFileSync(gifPath, response.data);					  return api.sendMessage(`🔴🟢🟡\n\n✅ 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗨𝗖𝗖𝗘𝗦! \n➭ Bot Prefix: ${prefix}\n➭ Admin: ‹joshua Apostol›\n➭ Facebook: ‹https://www.facebook.com/profile.php?id=100088690249020›\n➭ Use ${prefix}help to view command details\n➭ Added bot at: ⟨ ${time} ⟩〈 ${thu} 〉`, event.threadID,
+					fs.writeFileSync(gifPath, response.data);					  return api.sendMessage(`🔴🟢🟡\n\n✅ 𝗚𝗥𝗢𝗨𝗣 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡 𝗦𝗨𝗖𝗖𝗘𝗦! \n➭ Bot Prefix: ${prefix}\n➭ Admin: ‹Art Nakagodmode›\n➭ Facebook: ‹https://www.facebook.com/Kiel.as.usual.11›\n➭ Use ${prefix}help to view command details\n➭ Added bot at: ⟨ ${time} ⟩〈 ${thu} 〉`, event.threadID,
 					);
 					})
 					.catch(error => {
