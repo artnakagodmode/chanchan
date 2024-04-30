@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 module.exports.config = {
- name: "miko",
+ name: "ryu",
  version: "1.0.0",
  role: 0,
- aliases: ["joshua Apostol"],
- credits: "cliff",
+ aliases: [" "],
+ credits: " ",
 cooldown: 0,
 hasPrefix: false,
 	usage: "",
